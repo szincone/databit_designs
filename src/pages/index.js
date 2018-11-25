@@ -46,22 +46,22 @@ class Homepage extends Component {
             <div className="col-6">
               <ul className="major-icons">
                 <li>
-                  <span className="icon style1 major fa-code" />
+                  <span className="icon style1 major fa-star-o" />
                 </li>
                 <li>
-                  <span className="icon style2 major fa-bolt" />
+                  <span className="icon style2 major fa-code" />
                 </li>
                 <li>
-                  <span className="icon style3 major fa-camera-retro" />
+                  <span className="icon style3 major fa-star-half-o" />
                 </li>
                 <li>
-                  <span className="icon style4 major fa-cog" />
+                  <span className="icon style4 major fa-laptop" />
                 </li>
                 <li>
-                  <span className="icon style5 major fa-desktop" />
+                  <span className="icon style5 major fa-star" />
                 </li>
                 <li>
-                  <span className="icon style6 major fa-calendar" />
+                  <span className="icon style6 major fa-diamond" />
                 </li>
               </ul>
             </div>
