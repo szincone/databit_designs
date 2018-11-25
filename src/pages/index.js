@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/pic01.jpg'
+import sandDunesElk from '../assets/images/main/DunesMain.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -35,7 +35,10 @@ class Homepage extends Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic01} alt="" />
+                <img
+                  src={sandDunesElk}
+                  alt="Picture of San Luis Valley Sand Dunes"
+                />
               </span>
             </div>
           </div>
@@ -118,13 +121,6 @@ class Homepage extends Component {
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
               </p>
-              <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
-              </ul>
             </div>
             <div className="col-4">
               <span className="image fit">
@@ -135,13 +131,6 @@ class Homepage extends Component {
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
               </p>
-              <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
-              </ul>
             </div>
             <div className="col-4">
               <span className="image fit">
@@ -152,13 +141,6 @@ class Homepage extends Component {
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
               </p>
-              <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
@@ -173,11 +155,6 @@ class Homepage extends Component {
               <li>
                 <a href="#" className="button special">
                   Sign Up
-                </a>
-              </li>
-              <li>
-                <a href="#" className="button">
-                  Learn More
                 </a>
               </li>
             </ul>

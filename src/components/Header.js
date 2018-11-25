@@ -8,9 +8,9 @@ class Header extends Component {
           <span className="icon major fa-code" />
           <h1>
             DataBit Designs
-            <br />
-            Accumsan feugiat mi commodo erat.
+            {/* <br /> */}
           </h1>
+          <h2>Affordable web design for the San Luis Valley.</h2>
           <p>
             Accumsan feugiat mi commodo erat lorem ipsum, sed magna
             <br />
