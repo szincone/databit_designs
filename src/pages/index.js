@@ -25,7 +25,10 @@ class Homepage extends Component {
               <p>
                 We are a small team based in the San Luis Valley who specialize
                 in providing affordable, custom designed web-sites for small
-                businesses and individuals.
+                businesses and individuals. For only $20 a month, you can get a
+                custom designed web-site to help drive sales and increase
+                traffic to your business. Cancel your subscription at anytime
+                and only pay for the months you use our service.
               </p>
             </div>
             <div className="col-6">
