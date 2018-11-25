@@ -127,7 +127,7 @@ class Homepage extends Component {
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
-              <h3>Ongoing Support</h3>
+              <h3>Ongoing</h3>
               <p>
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
