@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import sandDunesElk from '../assets/images/main/DunesMain.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import pic02 from '../assets/images/main/computer_code.jpg'
+import pic03 from '../assets/images/main/computer_graphs.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends Component {
