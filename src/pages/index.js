@@ -20,17 +20,12 @@ class Homepage extends Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
-                <h2>
-                  Lorem ipsum dolor adipiscing
-                  <br />
-                  amet dolor consequat
-                </h2>
+                <h2>Who We Are</h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan et interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis sed volutpat
-                aclacus nascetur ac non. Lorem curae et ante amet sapien sed
-                tempus adipiscing id accumsan.
+                We are a small team based in the San Luis Valley who specialize
+                in providing affordable, custom designed web-sites for small
+                businesses and individuals.
               </p>
             </div>
             <div className="col-6">

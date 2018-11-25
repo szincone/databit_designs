@@ -11,11 +11,6 @@ class Header extends Component {
             {/* <br /> */}
           </h1>
           <h2>Affordable web design for the San Luis Valley.</h2>
-          <p>
-            Accumsan feugiat mi commodo erat lorem ipsum, sed magna
-            <br />
-            lobortis feugiat sapien sed etiam volutpat accumsan.
-          </p>
           <ul className="actions">
             <li>
               <a href="#one" className="button scrolly">
