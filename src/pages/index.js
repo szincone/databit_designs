@@ -20,23 +20,21 @@ class Homepage extends Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
-                <h2>Who We Are</h2>
+                <h2>About Us</h2>
               </header>
               <p>
                 We are a small team based in the San Luis Valley who specialize
                 in providing affordable, custom designed web-sites for small
-                businesses and individuals. For only $20 a month, you can get a
-                custom designed web-site to help drive sales and increase
-                traffic to your business. Cancel your subscription at anytime
-                and only pay for the months you use our service.
+                businesses and individuals.
+                <br /> For only $20 a month, you can get a custom designed
+                web-site to help drive sales and increase traffic to your
+                business. Cancel your subscription at anytime and only pay for
+                the months you use our service.
               </p>
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img
-                  src={sandDunesElk}
-                  alt="Picture of San Luis Valley Sand Dunes"
-                />
+                <img src={sandDunesElk} alt="San Luis Valley Sand Dunes" />
               </span>
             </div>
           </div>
@@ -71,25 +69,24 @@ class Homepage extends Component {
                 <h2>Custom Web-Design on a Budget</h2>
               </header>
               <p>
-                After using our contact form to get in touch with us, we will
-                touch base with you concerning design preferences and business
-                needs. We then get to work immediately on building your custom
-                designed single page web-site.
+                After using our contact form, we'll touch base to discuss an
+                overall theme to your site. Then we get to work on creating your{' '}
+                <b>single page, static</b> web-site. The whole process, from
+                design, to building, to hosting of the web-site usually takes
+                between 1-2 weeks depending on the number of projects we are
+                working on at any given time.
               </p>
               <p>
-                Blandit faucibus proin. Ac aliquam integer adipiscing enim non
-                praesent vis commodo nunc phasellus cubilia ac risus accumsan.
-                Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
-                varius accumsan lobortis. Blandit ante aliquam lacinia lorem
-                lobortis semper morbi col faucibus vitae integer placerat
-                accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing
-                curae consequat feugiat etiam dolore.
+                $20 a month includes a custom designed web-site, web hosting,
+                and the ability to make <b>1</b> edit to your web-site each
+                month. Additional edits and web-site redesigns cost extra. You
+                can cancel your subscription at anytime and your web-site will
+                continue to be hosted for the duration of the month(s) you paid
+                for.
               </p>
               <p>
-                Adipiscing a commodo ante nunc accumsan interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-                nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-                Adipiscing id accumsan adipiscing ipsum.
+                * If you require more than a single page, static web-site we are
+                also able to provide more custom solutions for additional cost.
               </p>
             </div>
           </div>
@@ -99,7 +96,7 @@ class Homepage extends Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Adipiscing amet consequat</h2>
+                <h2>Services</h2>
               </header>
               <p>
                 Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
@@ -110,7 +107,7 @@ class Homepage extends Component {
               <span className="image fit">
                 <img src={pic02} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Custom Design</h3>
               <p>
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
@@ -120,7 +117,7 @@ class Homepage extends Component {
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Affordable</h3>
               <p>
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
@@ -130,7 +127,7 @@ class Homepage extends Component {
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Ongoing Support</h3>
               <p>
                 Adipiscing a commodo ante nunc magna lorem et interdum mi ante
                 nunc lobortis non amet vis sed volutpat et nascetur.
@@ -142,13 +139,16 @@ class Homepage extends Component {
         <section id="four" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>Ipsum feugiat consequat?</h2>
+              <h2>Questions or want to learn more?</h2>
             </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <p>
+              Use the link below if you're interested in getting a site or would
+              just like to learn more.
+            </p>
             <ul className="actions uniform">
               <li>
                 <a href="#" className="button special">
-                  Sign Up
+                  Contact Us
                 </a>
               </li>
             </ul>
