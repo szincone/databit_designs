@@ -68,17 +68,12 @@ class Homepage extends Component {
             </div>
             <div className="col-6">
               <header className="major">
-                <h2>
-                  Lorem ipsum dolor adipiscing
-                  <br />
-                  amet dolor consequat
-                </h2>
+                <h2>Custom Web-Design on a Budget</h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-                nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-                Adipiscing id accumsan adipiscing ipsum.
+                After contacting us about your initial web-site, we will get in
+                touch with you to find out about your business needs and design
+                preferences.
               </p>
               <p>
                 Blandit faucibus proin. Ac aliquam integer adipiscing enim non
