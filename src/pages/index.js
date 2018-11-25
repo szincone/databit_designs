@@ -71,9 +71,10 @@ class Homepage extends Component {
                 <h2>Custom Web-Design on a Budget</h2>
               </header>
               <p>
-                After contacting us about your initial web-site, we will get in
-                touch with you to find out about your business needs and design
-                preferences.
+                After using our contact form to get in touch with us, we will
+                touch base with you concerning design preferences and business
+                needs. We then get to work immediately on building your custom
+                designed single page web-site.
               </p>
               <p>
                 Blandit faucibus proin. Ac aliquam integer adipiscing enim non
