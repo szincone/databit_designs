@@ -504,7 +504,6 @@ input[type='radio'] {
     @include icon;
     color: _palette(fg-bold);
     cursor: default;
-    display: inline-block;
     margin: 0 0 (_size(element-margin) * 0.75) 0;
 
     &:before {
