@@ -130,7 +130,7 @@ class Homepage extends Component {
               <h3>Multiple Designs</h3>
               <p>
                 All web-sites include a desktop version and mobile version of
-                the site. Make sure you're reaching as many customers as
+                the site to make sure you're reaching as many customers as
                 possible.
               </p>
             </div>
@@ -143,8 +143,8 @@ class Homepage extends Component {
               <h2>Questions?</h2>
             </header>
             <p>
-              Use the link below if you're interested in getting a site or would
-              just like to learn more.
+              Use the link below if you're interested in getting a site or just
+              want to learn more.
             </p>
             <ul className="actions uniform">
               <li>
