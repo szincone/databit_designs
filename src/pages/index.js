@@ -47,22 +47,22 @@ class Homepage extends Component {
             <div className="col-6">
               <ul className="major-icons">
                 <li>
-                  <span className="icon style1 major fa-star-o" />
-                </li>
-                <li>
                   <span className="icon style2 major fa-code" />
                 </li>
                 <li>
-                  <span className="icon style3 major fa-star-half-o" />
+                  <span className="icon style1 major fa-star-o" />
                 </li>
                 <li>
                   <span className="icon style4 major fa-laptop" />
                 </li>
                 <li>
-                  <span className="icon style5 major fa-star" />
+                  <span className="icon style3 major fa-star-half-o" />
                 </li>
                 <li>
                   <span className="icon style6 major fa-diamond" />
+                </li>
+                <li>
+                  <span className="icon style5 major fa-star" />
                 </li>
               </ul>
             </div>
@@ -77,19 +77,17 @@ class Homepage extends Component {
                 designed single page web-site.
               </p>
               <p>
-                Blandit faucibus proin. Ac aliquam integer adipiscing enim non
-                praesent vis commodo nunc phasellus cubilia ac risus accumsan.
-                Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
-                varius accumsan lobortis. Blandit ante aliquam lacinia lorem
-                lobortis semper morbi col faucibus vitae integer placerat
-                accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing
-                curae consequat feugiat etiam dolore.
+                $20 a month includes a custom designed web-site, web hosting,
+                and the ability to make <b>1</b> edit to your web-site each
+                month. Additional edits and web-site redesigns cost extra. You
+                can cancel your subscription at anytime and your web-site will
+                continue to be hosted for the duration of the month(s) you paid
+                for.
               </p>
               <p>
-                Adipiscing a commodo ante nunc accumsan interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-                nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-                Adipiscing id accumsan adipiscing ipsum.
+                We're also able to do bigger or more custom projects if a single
+                page web-site doesn't suite your needs. Contact us about special
+                pricing options.
               </p>
             </div>
           </div>
@@ -99,41 +97,41 @@ class Homepage extends Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Adipiscing amet consequat</h2>
+                <h2>Web-Design Made Easy</h2>
               </header>
-              <p>
-                Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-              </p>
+              <p>Simplifying web-sites for small businesses and indivduals.</p>
             </div>
 
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <span className="icon style5 major fa-code" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Custom Designed</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                All web-sites are designed from the ground up using the latest
+                coding practices and frameworks. All sites are created using
+                React.js
               </p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <span className="icon style5 major fa-users" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>New Audiences</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                Increase traffic by giving customers an easy place to find
+                information about your place of business.
               </p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <span className="icon style5 major fa-desktop" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Multiple Designs</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                All web-sites include a desktop version and mobile version of
+                the site. Make sure you're reaching as many customers as
+                possible.
               </p>
             </div>
           </div>
@@ -142,13 +140,16 @@ class Homepage extends Component {
         <section id="four" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>Ipsum feugiat consequat?</h2>
+              <h2>Questions?</h2>
             </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <p>
+              Use the link below if you're interested in getting a site or would
+              just like to learn more.
+            </p>
             <ul className="actions uniform">
               <li>
                 <a href="#" className="button special">
-                  Sign Up
+                  Contact Us
                 </a>
               </li>
             </ul>
