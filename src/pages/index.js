@@ -30,10 +30,7 @@ class Homepage extends Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img
-                  src={sandDunesElk}
-                  alt="Picture of San Luis Valley Sand Dunes"
-                />
+                <img src={sandDunesElk} alt="San Luis Valley Sand Dunes" />
               </span>
             </div>
           </div>
