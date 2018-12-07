@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
@@ -22,7 +23,7 @@ class Homepage extends Component {
               <p>
                 We are a small team based in the San Luis Valley who specialize
                 in providing affordable, custom designed web-sites for small
-                businesses and individuals. For only $20 a month, you can get a
+                businesses and individuals. For only $50 a month, you can get a
                 custom designed web-site to help drive sales and increase
                 traffic to your business. Cancel your subscription at anytime
                 and only pay for the months you use our service.
@@ -71,7 +72,7 @@ class Homepage extends Component {
                 designed single page web-site.
               </p>
               <p>
-                $20 a month includes a custom designed web-site, web hosting,
+                $50 a month includes a custom designed web-site, web hosting,
                 and the ability to make <b>1</b> edit to your web-site each
                 month. Additional edits and web-site redesigns cost extra. You
                 can cancel your subscription at anytime and your web-site will
@@ -142,9 +143,9 @@ class Homepage extends Component {
             </p>
             <ul className="actions uniform">
               <li>
-                <a href="#" className="button special">
+                <Link to="/contact/" className="button special">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
