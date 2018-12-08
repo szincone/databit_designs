@@ -26,7 +26,6 @@ class Template extends Component {
 
   render() {
     const { children } = this.props
-    console.log('GATBSY PROPS', children)
     return (
       <div className={`body ${this.state.loading}`}>
         <Header />

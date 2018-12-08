@@ -5,14 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <iframe
-          height="773"
-          title="wufoo-form"
-          frameBorder="0"
-          scrolling="no"
-          style={{ width: '100%', border: 'none' }}
-          src="https://szincone.wufoo.com/embed/m4cdg611ty6wbe/"
-        />
+        <form />
         <Link to="/" className="button special">
           Return Home
         </Link>
