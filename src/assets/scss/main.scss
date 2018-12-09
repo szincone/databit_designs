@@ -1471,3 +1471,20 @@ button,
     @include padding(2em, 1em, (0, 0, _size(element-margin), 0));
   }
 }
+
+/* Form */
+form {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  label {
+    font-weight: bold;
+  }
+  textarea {
+    height: 9rem;
+  }
+  p {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+/* end form */
