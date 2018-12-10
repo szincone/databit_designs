@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-// const centerCol = {
-//   display: 'flex',
-//   justifyContent: 'center',
-//   alignItems: 'center',
-//   flexDirection: 'column',
-// }
+const centerCol = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  flexDirection: 'column',
+}
 const centerRow = {
   display: 'flex',
   justifyContent: 'center',
@@ -72,13 +72,17 @@ class Contact extends Component {
                 Message: <textarea name="message" placeholder="message" />
               </label>
             </p>
-            <p className="centerCol">
+            <p style={centerCol}>
               <button type="submit" className="button special">
                 Send
               </button>
             </p>
           </form>
-          <Link to="/" style={{ height: '3rem' }} className="button special">
+          <Link
+            to="/"
+            style={{ height: '3rem', borderRadius: '0 0 4px 4px' }}
+            className="button special"
+          >
             Return Home
           </Link>
         </div>
