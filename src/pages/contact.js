@@ -19,7 +19,19 @@ const pStyle = {
   paddingBottom: '0',
 }
 class Contact extends Component {
+  state = {
+    company: '',
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  }
+
+  changeHandler = event => {
+    this.setState({ [event.target.name]: event.target.value })
+  }
   render() {
+    console.log('State', this.state)
     return (
       <div className="centerCol">
         <div className="formContainer">
@@ -29,17 +41,24 @@ class Contact extends Component {
                 <label style={{ maxWidth: '47%' }}>
                   Company:
                   <input
+                    value={this.state.company}
                     type="text"
                     name="company"
-                    value=""
                     placeholder="company"
+                    onChange={this.changeHandler}
                   />
                 </label>
               </p>
               <p style={pStyle}>
                 <label>
                   Name:
-                  <input type="text" name="name" value="" placeholder="name" />
+                  <input
+                    type="text"
+                    name="name"
+                    value={this.state.name}
+                    placeholder="name"
+                    onChange={this.changeHandler}
+                  />
                 </label>
               </p>
             </div>
@@ -50,8 +69,9 @@ class Contact extends Component {
                   <input
                     type="text"
                     name="phone"
-                    value=""
+                    value={this.state.phone}
                     placeholder="phone"
+                    onChange={this.changeHandler}
                   />
                 </label>
               </p>
@@ -61,15 +81,22 @@ class Contact extends Component {
                   <input
                     type="text"
                     name="email"
-                    value=""
+                    value={this.state.email}
                     placeholder="email"
+                    onChange={this.changeHandler}
                   />
                 </label>
               </p>
             </div>
             <p style={pStyle}>
               <label>
-                Message: <textarea name="message" placeholder="message" />
+                Message:{' '}
+                <textarea
+                  name="message"
+                  placeholder="message"
+                  value={this.state.message}
+                  onChange={this.changeHandler}
+                />
               </label>
             </p>
             <p style={centerCol}>
