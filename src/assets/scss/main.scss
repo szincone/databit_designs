@@ -552,7 +552,7 @@ input[type='radio'] {
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
     max-width: 30rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1rem;
     img {
       width: 100%;
     }
@@ -1317,6 +1317,7 @@ button,
   .icon {
     &.major {
       margin: 0 0 (_size(element-margin) * 0.5) 0;
+      font-size: 1.5rem;
     }
   }
 
@@ -1477,8 +1478,6 @@ button,
 .formContainer {
   max-width: 30rem;
   width: 100%;
-  margin-top: 1rem;
-  border-radius: 4px;
   background-color: #ffffff;
   opacity: 0.85;
   display: flex;

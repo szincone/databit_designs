@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import { ContactHeader } from '../components/ContactHeader.js'
 
 const centerCol = {
   display: 'flex',
@@ -33,6 +34,7 @@ class Contact extends Component {
     console.log('State', this.state)
     return (
       <div className="centerCol">
+        <ContactHeader />
         <div className="formContainer">
           <form
             name="contact"
