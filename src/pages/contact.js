@@ -1,20 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-const formContainer = {
-  maxWidth: '30rem',
-  width: '100%',
-  background: 'red',
-  display: 'flex',
-  justifyContent: 'center',
-  flexDirection: 'column',
-}
-const centerCol = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexDirection: 'column',
-}
+// const centerCol = {
+//   display: 'flex',
+//   justifyContent: 'center',
+//   alignItems: 'center',
+//   flexDirection: 'column',
+// }
 const centerRow = {
   display: 'flex',
   justifyContent: 'center',
@@ -29,20 +21,25 @@ const pStyle = {
 class Contact extends Component {
   render() {
     return (
-      <div style={centerCol}>
-        <div style={formContainer}>
+      <div className="centerCol">
+        <div className="formContainer">
           <form name="contact" method="POST" netlify="true">
             <div>
               <p style={pStyle}>
                 <label style={{ maxWidth: '47%' }}>
                   Company:
-                  <input type="text" name="company" value="" />
+                  <input
+                    type="text"
+                    name="company"
+                    value=""
+                    placeholder="company"
+                  />
                 </label>
               </p>
               <p style={pStyle}>
                 <label>
                   Name:
-                  <input type="text" name="name" value="" />
+                  <input type="text" name="name" value="" placeholder="name" />
                 </label>
               </p>
             </div>
@@ -50,28 +47,38 @@ class Contact extends Component {
               <p style={pStyle}>
                 <label>
                   Phone:
-                  <input type="text" name="phone" value="" />
+                  <input
+                    type="text"
+                    name="phone"
+                    value=""
+                    placeholder="phone"
+                  />
                 </label>
               </p>
               <p style={pStyle}>
                 <label>
                   Email:
-                  <input type="text" name="email" value="" />
+                  <input
+                    type="text"
+                    name="email"
+                    value=""
+                    placeholder="email"
+                  />
                 </label>
               </p>
             </div>
             <p style={pStyle}>
               <label>
-                Message: <textarea name="message" />
+                Message: <textarea name="message" placeholder="message" />
               </label>
             </p>
-            <p style={centerCol}>
+            <p className="centerCol">
               <button type="submit" className="button special">
                 Send
               </button>
             </p>
           </form>
-          <Link to="/" className="button special">
+          <Link to="/" style={{ height: '3rem' }} className="button special">
             Return Home
           </Link>
         </div>

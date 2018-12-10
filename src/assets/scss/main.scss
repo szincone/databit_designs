@@ -1472,7 +1472,22 @@ button,
   }
 }
 
-/* Form */
+/* Contact View */
+.formContainer {
+  max-width: 30rem;
+  width: 100%;
+  background: white;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.centerCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 form {
   margin-top: 1rem;
   margin-bottom: 0;
@@ -1487,4 +1502,4 @@ form {
     padding-bottom: 0 !important;
   }
 }
-/* end form */
+/* end contact view */
