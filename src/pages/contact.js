@@ -9,7 +9,6 @@ const centerCol = {
 }
 const centerRow = {
   display: 'flex',
-  justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'row',
 }

@@ -551,7 +551,8 @@ input[type='radio'] {
     display: block;
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
-
+    max-width: 30rem;
+    margin: 0 auto 3rem;
     img {
       width: 100%;
     }
