@@ -34,7 +34,12 @@ class Contact extends Component {
     return (
       <div className="centerCol">
         <div className="formContainer">
-          <form name="contact" method="POST" netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="honey-bot-field"
+            netlify="true"
+          >
             <div>
               <p style={pStyle}>
                 <label style={{ maxWidth: '47%' }}>
@@ -58,6 +63,12 @@ class Contact extends Component {
                     placeholder="name"
                     onChange={this.changeHandler}
                   />
+                </label>
+              </p>
+              <p style={{ display: 'none' }}>
+                <label>
+                  Bees:
+                  <input name="honey-bot-field" />
                 </label>
               </p>
             </div>
@@ -97,6 +108,9 @@ class Contact extends Component {
                   onChange={this.changeHandler}
                 />
               </label>
+            </p>
+            <p>
+              <div data-netlify-recaptcha="true" />
             </p>
             <p style={centerCol}>
               <button type="submit" className="button special">
