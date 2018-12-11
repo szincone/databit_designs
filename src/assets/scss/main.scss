@@ -1479,7 +1479,7 @@ button,
   max-width: 30rem;
   width: 100%;
   background-color: #ffffff;
-  opacity: 0.85;
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1488,7 +1488,7 @@ button,
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   background-attachment: fixed, fixed, fixed;
   background-image: url('../images/overlay2.png'), url('../images/overlay3.svg'),
