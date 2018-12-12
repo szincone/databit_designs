@@ -41,6 +41,12 @@ class Contact extends Component {
             netlify-honeypot="honey-bot-field"
             data-netlify="true"
           >
+            <input
+              type="hidden"
+              style={{ display: 'none' }}
+              name="form-name"
+              value="contact"
+            />
             <div>
               <p style={pStyle}>
                 <label style={{ maxWidth: '47%' }}>
