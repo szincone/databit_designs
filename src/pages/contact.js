@@ -116,9 +116,7 @@ class Contact extends Component {
                 />
               </label>
             </p>
-            <p>
-              <div data-netlify-recaptcha="true" />
-            </p>
+            <div data-netlify-recaptcha="true" />
             <p style={centerCol}>
               <button type="submit" className="button special">
                 Send
