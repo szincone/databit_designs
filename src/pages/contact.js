@@ -31,7 +31,6 @@ class Contact extends Component {
     this.setState({ [event.target.name]: event.target.value })
   }
   render() {
-    console.log('State', this.state)
     return (
       <div className="centerCol">
         <ContactHeader />
@@ -40,7 +39,7 @@ class Contact extends Component {
             name="contact"
             method="POST"
             netlify-honeypot="honey-bot-field"
-            netlify="true"
+            data-netlify="true"
           >
             <div>
               <p style={pStyle}>
