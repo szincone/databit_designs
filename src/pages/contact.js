@@ -34,7 +34,7 @@ class Contact extends Component {
     })
   }
 
-  netlifyInputCheck = () => {
+  netlifyInputCheck = event => {
     if (this.state.name === '') {
       event.preventDefault()
       alert('A name must be provided.')
@@ -57,13 +57,6 @@ class Contact extends Component {
     }
     // this.redirectHandler()
   }
-  redirectHandler = () => {
-    if (this.state.inputCheckPassed) {
-      this.props.navigate('/')
-    } else {
-      this.props.navigate('/contact/')
-    }
-  }
   render() {
     return (
       <div className="centerCol">
@@ -73,6 +66,7 @@ class Contact extends Component {
             name="contact"
             method="POST"
             netlify-honeypot="honey-bot-field"
+            action="/"
             data-netlify="true"
             onSubmit={this.netlifyInputCheck}
           >
