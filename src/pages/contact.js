@@ -34,7 +34,6 @@ class Contact extends Component {
   }
 
   netlifyInputCheck = event => {
-    event.preventDefault()
     if (this.state.name === '') {
       alert('A name must be provided.')
     } else if (this.state.email === '') {
