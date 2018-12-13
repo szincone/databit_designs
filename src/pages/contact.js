@@ -35,13 +35,14 @@ class Contact extends Component {
 
   netlifyInputCheck = event => {
     event.preventDefault()
-    if (
-      this.state.name === '' ||
-      this.state.email === '' ||
-      this.state.phone === '' ||
-      this.state.message === ''
-    ) {
-      alert('Missing one or more fields')
+    if (this.state.name === '') {
+      alert('Missing name field')
+    } else if (this.state.email === '') {
+      alert('Missing email field')
+    } else if (this.state.phone === '') {
+      alert('Missing phone field')
+    } else if (this.state.message === '') {
+      alert('Missing message field')
     }
   }
   render() {
