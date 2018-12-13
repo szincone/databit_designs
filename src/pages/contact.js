@@ -25,7 +25,6 @@ class Contact extends Component {
     email: '',
     phone: '',
     message: '',
-    inputCheckPassed: true,
   }
 
   changeHandler = ({ target: { name, value } }) => {
@@ -34,29 +33,6 @@ class Contact extends Component {
     })
   }
 
-  netlifyInputCheck = event => {
-    if (this.state.name === '') {
-      event.preventDefault()
-      alert('A name must be provided.')
-      // this.setState({ inputCheckPassed: false })
-    } else if (this.state.email === '') {
-      event.preventDefault()
-      alert('An email must be provided.')
-      // this.setState({ inputCheckPassed: false })
-    } else if (this.state.phone === '') {
-      event.preventDefault()
-      alert('A phone number must be provided.')
-      // this.setState({ inputCheckPassed: false })
-    } else if (this.state.message === '') {
-      event.preventDefault()
-      alert('A message must be provided.')
-      // this.setState({ inputCheckPassed: false })
-    } else {
-      // do the damn thing
-      // this.setState({ inputCheckPassed: true })
-    }
-    // this.redirectHandler()
-  }
   render() {
     return (
       <div className="centerCol">
@@ -68,7 +44,6 @@ class Contact extends Component {
             netlify-honeypot="honey-bot-field"
             action="/"
             data-netlify="true"
-            onSubmit={this.netlifyInputCheck}
           >
             <input
               type="hidden"
