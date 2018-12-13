@@ -27,10 +27,25 @@ class Contact extends Component {
     message: '',
   }
 
-  changeHandler = event => {
-    this.setState({ [event.target.name]: event.target.value })
+  changeHandler = ({ target: { name, value } }) => {
+    this.setState({
+      [name]: value,
+    })
+  }
+
+  netlifyInputCheck = event => {
+    event.preventDefault()
+    if (
+      this.state.name === '' ||
+      this.state.email === '' ||
+      this.state.phone === '' ||
+      this.state.message === ''
+    ) {
+      alert('Missing one or more fields')
+    }
   }
   render() {
+    console.log('STATE', this.state)
     return (
       <div className="centerCol">
         <ContactHeader />
@@ -40,6 +55,7 @@ class Contact extends Component {
             method="POST"
             netlify-honeypot="honey-bot-field"
             data-netlify="true"
+            onSubmit={this.netlifyInputCheck}
           >
             <input
               type="hidden"

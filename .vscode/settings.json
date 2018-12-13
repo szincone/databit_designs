@@ -4,5 +4,6 @@
     "titleBar.inactiveForeground": "#ffffff",
     "titleBar.activeBackground": "#4686a0",
     "titleBar.inactiveBackground": "#4686a0"
-  }
+  },
+  "editor.cursorSmoothCaretAnimation": true
 }
