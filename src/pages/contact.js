@@ -36,22 +36,26 @@ class Contact extends Component {
 
   netlifyInputCheck = () => {
     if (this.state.name === '') {
+      event.preventDefault()
       alert('A name must be provided.')
-      this.setState({ inputCheckPassed: false })
+      // this.setState({ inputCheckPassed: false })
     } else if (this.state.email === '') {
+      event.preventDefault()
       alert('An email must be provided.')
-      this.setState({ inputCheckPassed: false })
+      // this.setState({ inputCheckPassed: false })
     } else if (this.state.phone === '') {
+      event.preventDefault()
       alert('A phone number must be provided.')
-      this.setState({ inputCheckPassed: false })
+      // this.setState({ inputCheckPassed: false })
     } else if (this.state.message === '') {
+      event.preventDefault()
       alert('A message must be provided.')
-      this.setState({ inputCheckPassed: false })
+      // this.setState({ inputCheckPassed: false })
     } else {
       // do the damn thing
-      this.setState({ inputCheckPassed: true })
+      // this.setState({ inputCheckPassed: true })
     }
-    this.redirectHandler()
+    // this.redirectHandler()
   }
   redirectHandler = () => {
     if (this.state.inputCheckPassed) {
