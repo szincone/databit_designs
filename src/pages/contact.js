@@ -33,7 +33,7 @@ class Contact extends Component {
     })
   }
 
-  netlifyInputCheck = event => {
+  netlifyInputCheck = () => {
     if (this.state.name === '') {
       alert('A name must be provided.')
     } else if (this.state.email === '') {
@@ -42,6 +42,8 @@ class Contact extends Component {
       alert('A phone number must be provided.')
     } else if (this.state.message === '') {
       alert('A message must be provided.')
+    } else {
+      // do the damn thing
     }
   }
   render() {
@@ -82,7 +84,7 @@ class Contact extends Component {
                     type="text"
                     name="name"
                     value={this.state.name}
-                    placeholder="name"
+                    placeholder="name (required)"
                     onChange={this.changeHandler}
                   />
                 </label>
@@ -102,7 +104,7 @@ class Contact extends Component {
                     type="text"
                     name="phone"
                     value={this.state.phone}
-                    placeholder="phone"
+                    placeholder="phone (required)"
                     onChange={this.changeHandler}
                   />
                 </label>
@@ -114,7 +116,7 @@ class Contact extends Component {
                     type="text"
                     name="email"
                     value={this.state.email}
-                    placeholder="email"
+                    placeholder="email (required)"
                     onChange={this.changeHandler}
                   />
                 </label>
@@ -125,7 +127,7 @@ class Contact extends Component {
                 Message:{' '}
                 <textarea
                   name="message"
-                  placeholder="message"
+                  placeholder="message (required)"
                   value={this.state.message}
                   onChange={this.changeHandler}
                 />
