@@ -36,17 +36,16 @@ class Contact extends Component {
   netlifyInputCheck = event => {
     event.preventDefault()
     if (this.state.name === '') {
-      alert('Missing name field')
+      alert('A name must be provided.')
     } else if (this.state.email === '') {
-      alert('Missing email field')
+      alert('An email must be provided.')
     } else if (this.state.phone === '') {
-      alert('Missing phone field')
+      alert('A phone number must be provided.')
     } else if (this.state.message === '') {
-      alert('Missing message field')
+      alert('A message must be provided.')
     }
   }
   render() {
-    console.log('STATE', this.state)
     return (
       <div className="centerCol">
         <ContactHeader />
