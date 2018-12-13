@@ -56,6 +56,7 @@ class Contact extends Component {
             method="POST"
             netlify-honeypot="honey-bot-field"
             data-netlify="true"
+            action="/"
             onSubmit={this.netlifyInputCheck}
           >
             <input
