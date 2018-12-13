@@ -25,6 +25,7 @@ class Contact extends Component {
     email: '',
     phone: '',
     message: '',
+    inputMissing: true,
   }
 
   changeHandler = ({ target: { name, value } }) => {
@@ -56,7 +57,7 @@ class Contact extends Component {
             method="POST"
             netlify-honeypot="honey-bot-field"
             data-netlify="true"
-            action="/"
+            action={this.state.inputMissing ? '/contact/' : '/'}
             onSubmit={this.netlifyInputCheck}
           >
             <input
