@@ -37,14 +37,19 @@ class Contact extends Component {
   netlifyInputCheck = () => {
     if (this.state.name === '') {
       alert('A name must be provided.')
+      this.setState({ inputMissing: true })
     } else if (this.state.email === '') {
       alert('An email must be provided.')
+      this.setState({ inputMissing: true })
     } else if (this.state.phone === '') {
       alert('A phone number must be provided.')
+      this.setState({ inputMissing: true })
     } else if (this.state.message === '') {
       alert('A message must be provided.')
+      this.setState({ inputMissing: true })
     } else {
       // do the damn thing
+      this.setState({ inputMissing: false })
     }
   }
   render() {
